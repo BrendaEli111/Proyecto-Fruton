@@ -112,12 +112,12 @@ export const alquilerData = [
     },
   ];
   
-  export const alquilerRows = [
+  export const productosRows = [
     {
       id: 1,
       name: 'cremolada fresa',
       avatar: "https://static.wixstatic.com/media/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg/v1/fill/w_1870,h_770,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg",
-      vehiculo: "Bebida",
+      category: "Bebida",
       status: "disponible",
       transaction: "s/ 10.00"
     },
@@ -125,7 +125,7 @@ export const alquilerData = [
       id: 2,
       name: 'queque marmoleado',
       avatar: "https://static.wixstatic.com/media/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg/v1/fill/w_1870,h_770,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg",
-      vehiculo: "Postres",
+      category: "Postres",
       status: "disponible",
       transaction: "s/ 10.00"
     },
@@ -133,7 +133,7 @@ export const alquilerData = [
       id: 3,
       name: 'suspiro a la limeña',
       avatar: "https://static.wixstatic.com/media/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg/v1/fill/w_1870,h_770,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg",
-      vehiculo: "Dulce",
+      category: "Dulce",
       status: "disponible",
       transaction: "s/ 10.00"
     },
@@ -141,7 +141,7 @@ export const alquilerData = [
       id: 4,
       name: 'torta 3 leches',
       avatar: "https://static.wixstatic.com/media/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg/v1/fill/w_1870,h_770,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg",
-      vehiculo: "Postres",
+      category: "Postres",
       status: "disponible",
       transaction: "s/ 10.00"
     },
@@ -149,7 +149,7 @@ export const alquilerData = [
       id: 5,
       name: 'cremolada fresa',
       avatar: "https://static.wixstatic.com/media/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg/v1/fill/w_1870,h_770,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg",
-      vehiculo: "Bebida",
+      category: "Bebida",
       status: "disponible",
       transaction: "s/ 10.00"
     },
@@ -157,7 +157,7 @@ export const alquilerData = [
       id: 6,
       name: 'cremolada fresa',
       avatar: "https://static.wixstatic.com/media/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg/v1/fill/w_1870,h_770,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg",
-      vehiculo: "Bebida",
+      category: "Bebida",
       status: "disponible",
       transaction: "s/ 10.00"
     },
@@ -165,7 +165,7 @@ export const alquilerData = [
       id: 7,
       name: 'torta 3 leches',
       avatar: "https://static.wixstatic.com/media/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg/v1/fill/w_1870,h_770,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg",
-      vehiculo: "Torta",
+      category: "Torta",
       status: "disponible",
       transaction: "s/ 10.00"
     },
@@ -173,7 +173,7 @@ export const alquilerData = [
       id: 8,
       name: 'arroz con leche',
       avatar: "https://static.wixstatic.com/media/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg/v1/fill/w_1870,h_770,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg",
-      vehiculo: "Postres",
+      category: "Postres",
       status: "disponible",
       transaction: "s/ 10.00"
     },
@@ -181,7 +181,7 @@ export const alquilerData = [
       id: 9,
       name: 'pudin',
       avatar: "https://static.wixstatic.com/media/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg/v1/fill/w_1870,h_770,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg",
-      vehiculo: "Postres",
+      category: "Postres",
       status: "disponible",
       transaction: "s/ 8.00"
     },
@@ -189,7 +189,7 @@ export const alquilerData = [
       id: 10,
       name: 'pudin',
       avatar: "https://static.wixstatic.com/media/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg/v1/fill/w_1870,h_770,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg",
-      vehiculo: "Dulce",
+      category: "Dulce",
       status: "disponible",
       transaction: "s/ 10"
     },
@@ -197,7 +197,7 @@ export const alquilerData = [
       id: 11,
       name: 'pudin',
       avatar: "https://static.wixstatic.com/media/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg/v1/fill/w_1870,h_770,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7a59be_977708d3a4474e8da4e846d8da6c078d~mv2.jpg",
-      vehiculo: "Dulce",
+      category: "Dulce",
       status: "disponible",
       transaction: "s/ 5.00"
     },
