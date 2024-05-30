@@ -7,6 +7,7 @@ import ProductoList from './components/Paginas/ProductoList/ProductoList';
 import NuevoProducto from './components/Paginas/NuevoProducto/NuevoProducto';
 import UserList from './components/Paginas/userList/UserList';
 import RolesList from './components/Paginas/rolesList/RolesList';
+import Catalogo from './components/Paginas/catalogo/Catalogo';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/nuevoProducto" element={<NuevoProducto />} />
           <Route path="/users" element={<UserList />} />
           <Route path="rolesList" element={<RolesList />} />
+          <Route path="/catalogo" element={<Catalogo />} />
         </Routes>
       </div>
     </Router>

@@ -50,7 +50,9 @@ export default function RolesList() {
                 <button className='rollAddBoton'>Nuevo</button>
             </Link>
         </div>
-        <DataGrid rows={data} disableSelectionOnClick columns={columns} pageSize={8} checkboxSelection/>
+        <div style={{ height: '80%', width: '100%' }}> {/* Ajusta la altura según tus necesidades */}
+        <DataGrid rows={data} disableSelectionOnClick columns={columns} pageSize={8} checkboxSelection />
+      </div>
     </div>
   )
 }

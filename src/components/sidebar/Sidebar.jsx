@@ -39,10 +39,12 @@ export default function Sidebar() {
                                 Productos
                             </li>
                         </Link>
-                        <li className='sidebarlistItem'>
-                            <Timeline className='sidebarIcon' />
-                            Catálogo
-                        </li>
+                        <Link to="/catalogo" className='link'>
+                            <li className='sidebarlistItem'>
+                                <FastfoodOutlined className='sidebarIcon' />
+                                Catálogo
+                            </li>
+                        </Link>
                         <li className='sidebarlistItem'>
                             <TrendingUp className='sidebarIcon' />
                             Inventario
