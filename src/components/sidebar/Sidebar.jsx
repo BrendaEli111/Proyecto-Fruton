@@ -10,7 +10,7 @@ export default function Sidebar() {
                 <div className="sidebarMenu">
                     <h3 className='sidebarTitle'>Usuario</h3>
                     <ul className='sidebarList'>
-                        <Link to="/" className='link'>
+                        <Link to="/Inicio" className='link'>
                             <li className='sidebarlistItem active'>
                                 <LineStyle className='sidebarIcon' />
                                 Inicio

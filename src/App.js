@@ -13,20 +13,20 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route path="*" element={
-          <Layout>
+        <Route path="/" element={<Login />} />
+        <Route path="*" element={<Layout>
+          <div className='container'>
             <Routes>
-              <Route exact path="/" element={<Inicio />} />
+              <Route exact path="/Inicio" element={<Inicio />} />
               <Route path="/productos" element={<ProductoList />} />
               <Route path="/nuevoProducto" element={<NuevoProducto />} />
               <Route path="/users" element={<UserList />} />
-              <Route path="/rolesList" element={<RolesList />} />
+              <Route path="rolesList" element={<RolesList />} />
               <Route path="/catalogo" element={<Catalogo />} />
             </Routes>
-          </Layout>
-        } />
-      </Routes>
+          </div>
+        </Layout>} />
+      </Routes>    
     </Router>
   );
 }

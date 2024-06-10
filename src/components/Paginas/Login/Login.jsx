@@ -21,7 +21,7 @@ export default function Login(){
     if (email === 'admin@admin.com' && password === 'password') {
       // Simulando un inicio de sesión 
       setError('');
-      navigate('/');
+      navigate('/Inicio');
     } else {
       setError('Invalid credentials');
     }
