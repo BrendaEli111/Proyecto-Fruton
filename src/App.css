@@ -1,13 +1,9 @@
-.container{
-  display: flex;
-  margin-top: 10px;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-.otros{
-  flex: 4;
-  
-}
-.link{
+.link {
   text-decoration: none;
   color: inherit;
 }

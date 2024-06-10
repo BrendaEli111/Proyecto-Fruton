@@ -1,0 +1,14 @@
+.layout-container {
+    display: flex;
+    margin-top: 10px;
+    width: 100%; /* Cambiar a 100% para ocupar todo el ancho */
+  }
+  
+  .sidebar {
+    flex: 1;
+  }
+  
+  .otros {
+    flex: 4; /* Flex 4 para ocupar la mayor parte del espacio */
+    padding: 10px;
+  }
